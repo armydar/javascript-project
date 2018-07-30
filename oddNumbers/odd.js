@@ -1,5 +1,5 @@
-for (var oddNumbers = 1; oddNumbers <= 100; oddNumbers = oddNumbers+2) {
-	console.log(oddNumbers);
+for (var oddNumbers = 1; oddNumbers <= 100; oddNumbers = oddNumbers + 2) {
+  console.log(oddNumbers);
 }
 
 /* to print odd numbers ranging 0 - 100, i wrote a forloop code.

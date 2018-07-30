@@ -1,5 +1,5 @@
-for (var number = 0; number <= 100; number++ ) {
-	console.log(number);
+for (var number = 0; number <= 100; number++) {
+  console.log(number);
 }
 
 /* to print number ranging from 0 - 100, i wrote a forloop code.
