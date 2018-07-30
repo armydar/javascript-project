@@ -13,3 +13,5 @@ for (var number = 0; number <= 200; number++) {
     }
 
 }
+
+/* The above code is for determining numbers divisible by 3 and 5 within the range of 0 to 200 */
