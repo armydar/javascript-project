@@ -1,0 +1,44 @@
+In The Loop
+    There are three types of loop which include: forloop, while-loop,do-while loop.
+
+    FORLOOP: A forloop includes initialization, condition and iteration.
+A counter, which is initialized with a certain value — this is the starting point of the loop
+ ("Start: I have no food", above).
+
+An exit condition, which is the criteria under which the loop stops — usually
+ the counter reaching a certain value. 
+
+An iterator, which generally increments the counter by a small amount on 
+each successive loop, until it reaches the exit condition.
+
+It can be represented as shown below: for(var starts = 0; starts <= stop.length; starts++){ //conditions to run }
+Note: starts is a variable and stop is more like box for storing data.
+
+WHILE-LOOP: This works in a very similar way to the for loop, except that the initializer variable 
+is set before the loop, and the final-expression is included inside the loop after the code to run — 
+rather than these two items being included inside the parentheses. The exit-condition is included inside the
+ parentheses, which are preceded by the while keyword rather than for.
+
+The same three items are still present, and they are still defined 
+in the same order as they are in the for loop — this makes sense, as you still have 
+to have an initializer defined before you can check whether it has reached the exit-condition; 
+the final-condition is then run after the code inside the loop has run (an iteration has been completed),
+ which will only happen if the exit-condition has still not been reached.
+
+ It can be represented as shown thus:
+  var starts = 0;
+  while (i < stop.length) {
+  //condition to run
+   starts++;
+}
+
+DO-WHILE-LOOP: The major difference between this loop and the other two is that, the code runs first before checking
+the condition and stop. It only continues again if the condition is true. It is also preceded with a do keyword.
+It can be represented thus:
+var starts = 0;
+
+do {
+  //condition to run
+
+  i++;
+} while (starts < stop.length);
