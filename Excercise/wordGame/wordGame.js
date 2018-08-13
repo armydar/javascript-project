@@ -10,3 +10,4 @@ for (var guess = 0; guess <= 2; guess++) {
     guessedWords.push(guessedWord);
 }
 console.log(guessedWords);
+
