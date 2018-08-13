@@ -7,10 +7,9 @@ function isPrime(value) {
   return value > 1;
 }
 
-
 var primeNumbers = [];
 
-for (var number = 1; number <= 1000; number++){
+for (var number = 1; number <= 100; number++){
   if(isPrime(number)){
     primeNumbers.push(number);
   }
